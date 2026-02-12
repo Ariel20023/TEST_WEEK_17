@@ -1,8 +1,7 @@
 import json
 from mongo import insert_in_mongo,insert_in_mongo_many
 from confluent_kafka import Consumer
-from datetime import datetime
-
+from  main import *
 
 consumer_config = {
     "bootstrap.servers": "kafka:9092",
